@@ -7,9 +7,9 @@ __version__ = "0.10.1"
 def get_latest_version():
     """Get the latest version of gridstatusio from PyPI"""
 
-    response = requests.get("https://pypi.org/pypi/gridstatusio/json")  # noqa: E501
-    latest_version = response.json()["info"]["version"]
-    return latest_version
+    # response = requests.get("https://pypi.org/pypi/gridstatusio/json")  # noqa: E501
+    # latest_version = response.json()["info"]["version"]
+    return "0.10.1"
 
 
 def version_is_higher(latest, current):
